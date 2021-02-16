@@ -60,6 +60,7 @@ Current features include:
    and place it inside.
 
    geckodriver (Firefox): https://github.com/mozilla/geckodriver/releases
+   
    chromedriver (Chrome): https://chromedriver.chromium.org/downloads
 
    NOTE: Please ensure you are using the correct driver for the browser you
@@ -76,6 +77,7 @@ Current features include:
    can be different by computer. The general location of your created profiles are:
 
    Firefox: C:\Users\user name\AppData\Roaming\Mozilla\Firefox\Profiles\somerandomstring.ProfileName
+   
    Chrome: C:\Users\user name\AppData\Local\Google\Chrome\User Data\
 
    Point the program to these locations and then your Browser Profile settings will be 
@@ -116,5 +118,7 @@ See https://www.gnu.org/licenses/ or the license file for more details.
 # Contact Information
                 
 https://twitter.com/hbkpancakes
+
 https://github.com/hbkpancakes
+
 hbkpancakes@protonmail.com
