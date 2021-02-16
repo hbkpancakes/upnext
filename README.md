@@ -1,8 +1,7 @@
-####################################################
-Upnext, a YouTube playlist builder by hbk Pancakes
-                    BETA v0.1
- twitter@hbkpancakes | hbkpancakes@protonmail.com
-####################################################
+# Upnext, a YouTube playlist builder by hbk Pancakes
+BETA v0.1
+twitter@hbkpancakes | hbkpancakes@protonmail.com
+
 
 Upnext is a YouTube playlist builder, which will remove old
 videos and add new videos to a specified playlist, based on 
@@ -23,10 +22,7 @@ Current features include:
 - Ability to edit subscription choices, playlist link, 
   and default browser choices on the fly
 
-####################################################
-                    Requirements
-####################################################
-
+# Requirements
 - Python 3.x 
 - Selenium package installed
 - Up to date Firefox or Chrome browser downloaded and installed
@@ -40,10 +36,8 @@ Current features include:
         script not work. This is due to YouTube limitations (and to avoid typing your
         username and password into programs you download off the internet).
         This script will not ever see your username and password. 
-
-####################################################
-               Setup and Instructions
-####################################################
+        
+# Setup and Instructions
 
 1. Create a folder and place the script inside of it (name is your choice)
 
@@ -101,10 +95,8 @@ Current features include:
    (if any), and add new videos from the Channel Subscriptions you specified.
    If you chose Firefox, this will all happen in the background. There will be messages
    printed in the program to tell you exactly what step the program is on.
-
-####################################################
-                    License
-####################################################
+   
+# License
 
 Copyright (C) 2021 hbk Pancakes
 
@@ -120,10 +112,8 @@ GNU General Public License for more details.
 
 See https://www.gnu.org/licenses/ or the license file for more details.
 
-####################################################
-                Contact Information
-####################################################
-
+# Contact Information
+                
 https://twitter.com/hbkpancakes
 https://github.com/hbkpancakes
 hbkpancakes@protonmail.com
