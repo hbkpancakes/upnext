@@ -1,5 +1,5 @@
 # Upnext, a YouTube playlist builder by hbk Pancakes
-BETA v0.01
+BETA v0.1
 twitter@hbkpancakes | hbkpancakes@protonmail.com
 
 
@@ -42,26 +42,37 @@ Current features include:
 
 1. Create a folder and place the script inside of it (name is your choice)
 
-2. Create a folder called "configs"
+2. Create a folder called "configs" inside the folder where the script is saved
 
-3. Create a folder called "browsers", and inside of that folder,
+3. Create a folder called "browsers" in that same folder, and inside of that folder,
    create a folder called "firefox" and a folder called "chrome"
 
-4. Execute the script. Here you can either enter "1" and run right
-   away, or go through each option and set up each separately. If you
-   use option "1", you will be walked through the setup.
-
-5. When you set up the browser settings, you will get asked to
-   specify your driver file. This is an important file that allows
+4. Decide which browser you would like the script to run in (note: the browser
+   must be already downloaded and installed on your machine for this to work) and
+   download the correct driver for it. This is an important file that allows
    your browser to run tasks on your behalf. Download this straight 
-   from the source so you can be certain it is up to date *links below). 
-   Next, create a folder called "browser", inside that folder create a 
-   folder named either "firefox" or "chrome" (depending on which driver), 
-   and place it inside.
+   from the source so you can be certain it is up to date.
 
    geckodriver (Firefox): https://github.com/mozilla/geckodriver/releases
    
    chromedriver (Chrome): https://chromedriver.chromium.org/downloads
+
+   Whichever driver you download, place it in the corresponding browser folder that
+   you created in the previous step
+
+4. Execute the script. Here you can either enter "1" and run it right
+   away, or go through each option and set up each separately. If you
+   use option "1", you will be walked through the setup.
+
+5. When you set up the browser settings, you will get asked to
+   specify your driver file. The easiest way to get the path for this
+   is to navigate to the folder the driver file is in and copy the file path
+   location. Paste it, and then add the name of the .exe file at the end.
+
+   For example if the pasted file path looks like this: 
+      c:\file\path\to\driver\
+   The result should look like this:
+      c:\file\path\to\driver\chromedriver.exe
 
    NOTE: Please ensure you are using the correct driver for the browser you
    specify. If you choose Firefox, make sure the file you are using is titled
