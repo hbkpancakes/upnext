@@ -32,6 +32,7 @@ Current features include:
 - A custom browser profile for your respective browser that 
   is logged into your YouTube account, and has those credentials 
   saved. 
+  
       + Both Firefox and Chrome have guides on how to do this, and
         it is recommended to check with your browsers documentation on how to 
         do this. This step is required, and failure to do this will make the 
