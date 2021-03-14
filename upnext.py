@@ -3,6 +3,11 @@
 # videos and add new videos to a specified playlist, based on 
 # channel subscription choices that you specify.
 
+# to do:
+# add error names to try/except blocks where missing
+# more error handling
+# additional features (remove videos from playlist only?)
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
@@ -19,8 +24,23 @@ from decimal import Decimal
 from functools import reduce
 import os
 import json
+# can likely remove this, just creates another dependency for python users. include in .exe release though
+from win10toast import ToastNotifier
+
+# set notification variable
+toaster = ToastNotifier()
+
+# create clear function to keep cmd clean while running program
+def clear(): 
+    # for windows 
+    if os.name == 'nt': 
+        _ = os.system('cls') 
+    # for mac and linux(here, os.name is 'posix') 
+    else: 
+        _ = os.system('clear') 
 
 while True:
+    clear()
     # quick check for current browser setting for main menu
     try:
         with open(r'configs/browser_config.json', 'r') as f:
@@ -250,10 +270,10 @@ while True:
         ### main program loop ###
         #########################
 
-        print('\nRemoving previous videos from playlist...')
-
         # access playlist
         browser.get(playlist_link)
+
+        print('\nRemoving previous videos from playlist...')
 
         # finds playlist name
         playlist_name_element = browser.find_element_by_xpath('//*[@id="text-displayed"]')
@@ -342,6 +362,9 @@ while True:
         print('Complete!')
         time.sleep(3)
         browser.quit()
+        # windows 10 notification, can remove this for python distro, add back in/keep for .exe
+        # also will want to add program icon to toast notification
+        toaster.show_toast("Playlist updated!", "Upnext has successfully added videos to your playlist")
 
     #####################
     ### settings menu ###
@@ -349,6 +372,7 @@ while True:
 
     # if user selects 2, start browser edit settings
     if menu_choice == '2':
+        clear()
     # displays menu
         print('\nBrowser Settings\n')
         print('Browser List:\n1. Firefox\n2. Chrome\n\n0. Exit\n')
@@ -407,6 +431,8 @@ while True:
                 json.dump(browser_config, f)
 
             print('Browser settings updated.\n')
+
+            clear()
         
         # attemps to load chrome browser
         if browser_check == '2':
@@ -455,12 +481,16 @@ while True:
 
             print('Browser settings updated.\n')
 
+            clear()
+
     # exit to main menu
     if browser_check == '0':
         pass
+        clear()
 
     # if user selects 3, start sub edit settings
     if menu_choice == '3':
+        clear()
         # attempts to load sub settings
         try:
             with open(r'configs/sub_config.json', 'r') as f:
@@ -524,6 +554,7 @@ while True:
                 json.dump(sub_config, f)
 
             print('Sub list successfully updated.\n')
+            clear()
 
         # remove sub option
         if sub_settings_choice == '2':
@@ -544,15 +575,19 @@ while True:
                         json.dump(sub_config, f)
                 
                 print('\nSub list successfully updated.')
+                clear()
             except (UnboundLocalError):
                 print('\nThere are no Subs currently configured, so there is nothing to remove.')
+                clear()
 
         # exit to main menu
         if sub_settings_choice == '0':
             pass
+            clear()
 
     # if user selects 4, start playlist edit settings
     if menu_choice == '4':
+        clear()
         # attemps to load playlist settings
         try:
             with open(r'configs/playlist_config.json', 'r') as f:
@@ -603,10 +638,12 @@ while True:
                 json.dump(playlist_config, f)
             
             print('\nPlaylist Link successfully updated.\n')
+            clear()
         
         # exits to main menu
         if playlist_settings_choice == '0':
             pass
+            clear()
 
     # exits program
     if menu_choice == '0':
