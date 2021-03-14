@@ -4,8 +4,8 @@
 # channel subscription choices that you specify.
 
 # to do:
-# add error names to try/except blocks where missing
-# more error handling
+# add specific errors to try/except blocks where missing
+# more error handling!
 # additional features (remove videos from playlist only?)
 
 from selenium import webdriver
