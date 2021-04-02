@@ -31,7 +31,7 @@ Current to do list:
 # Requirements
 - Python 3.x 
 - Selenium package installed
-- OPTIONAL: Win10toast (provides notification for Windows 10 users. Remember to uncomment lines out if you decide to use
+- OPTIONAL: Win10toast (provides notification for Windows 10 users. Remember to uncomment lines that are commented out if you decide to use it (specific lines named in code)
 - Up to date Firefox or Chrome browser downloaded and installed
   onto your computer.
 - A custom browser profile for your respective browser that 
