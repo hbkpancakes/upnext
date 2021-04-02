@@ -8,8 +8,6 @@ Upnext is a YouTube playlist builder, which will remove old
 videos and add new videos to a specified playlist, based on 
 channel subscription choices that you specify.
 
-****** PLEASE NOTE ******
-
 This is in very early stages, and while functional, error
 handling is not yet complete. You may run into errors
 that crash the script, or errors that look whacky. I'm expecting
