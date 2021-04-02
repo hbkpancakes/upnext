@@ -3,11 +3,6 @@
 # videos and add new videos to a specified playlist, based on 
 # channel subscription choices that you specify.
 
-# to do:
-# add error names to try/except blocks where missing
-# more error handling
-# additional features (remove videos from playlist only?)
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
@@ -24,7 +19,7 @@ from decimal import Decimal
 from functools import reduce
 import os
 import json
-# removed to lessen dependencies for sript to work, feel free to enable, if you enable, uncomment out lines 31 and 367 
+# removed to lessen dependencies for script to work, feel free to enable, if you enable, uncomment out lines 23, 31 and 367 
 # from win10toast import ToastNotifier
 
 # set notification variable
