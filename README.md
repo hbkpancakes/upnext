@@ -90,7 +90,17 @@ Current to do list:
 
 6. After setting up the driver location, you will be asked to specify your browser
    profile location. This is different for each browser (Chrome and Firefox), and
-   can be different by computer. The general location of your created profiles are:
+   can be different by computer. 
+   
+   IMPORTANT RECOMMENDATION: I HIGHLY recommend creating a BRAND NEW profile for your respective browser.
+   Once you have one created, login to your Youtube account and be sure to save the creditials. Also, ensure
+   your login history is not cleared when you exit your browser. NOTE: This new profile DOES NOT need 
+   to be your main browser profile, and you can switch back to your main profile with more secure settings
+   after creation. This new profile is only needed for successful login to your Youtube account.
+   
+   You can still clear cookies, login info, etc on your main browser profile.
+   
+   The general location of your created profiles are:
 
    Firefox: C:\Users\user name\AppData\Roaming\Mozilla\Firefox\Profiles\somerandomstring.ProfileName
    
