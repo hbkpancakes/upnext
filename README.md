@@ -28,7 +28,8 @@ Current to do list:
 - Create non-headless option for Firefox (or remove headless option completely, it may be unnecessary)
 - Additional features (ex. option for only removing videos from playlist - can be useful for playlist cleanup)
 
-**PLEASE MAKE SURE YOU READ ALL SETUP INSTRUCTIONS CAREFULLY, ESPECIALLY STEP 7. THIS WILL ENSURE THE SCRIPT RUNS WITHOUT ERROR**
+**PLEASE MAKE SURE YOU READ ALL SETUP INSTRUCTIONS CAREFULLY, ESPECIALLY STEP 7. 
+THIS WILL ENSURE THE SCRIPT RUNS WITHOUT ERROR**
 
 # Requirements
 - Python 3.x 
