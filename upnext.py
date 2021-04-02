@@ -4,8 +4,8 @@
 # channel subscription choices that you specify.
 
 # to do:
-# add specific errors to try/except blocks where missing
-# more error handling!
+# add error names to try/except blocks where missing
+# more error handling
 # additional features (remove videos from playlist only?)
 
 from selenium import webdriver
@@ -285,7 +285,7 @@ while True:
         for videos in videos_to_remove: 
             WebDriverWait(browser, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'ytd-playlist-video-renderer.style-scope:nth-child(1) > div:nth-child(3) > ytd-menu-renderer:nth-child(1)'))).click()
             time.sleep(1)
-            WebDriverWait(browser, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'ytd-menu-service-item-renderer.style-scope:nth-child(4) > paper-item:nth-child(1)'))).click()
+            WebDriverWait(browser, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'ytd-menu-service-item-renderer.style-scope:nth-child(4) > tp-yt-paper-item:nth-child(1)'))).click()
             time.sleep(1)
 
         # access subscription page
@@ -315,7 +315,7 @@ while True:
                         WebDriverWait(element, 20).until(EC.element_to_be_clickable((By.CLASS_NAME, 'style-scope ytd-menu-renderer'))).click()
                         time.sleep(2)
                         # add to playlist click
-                        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'ytd-menu-service-item-renderer.style-scope:nth-child(3) > paper-item:nth-child(1) > yt-icon:nth-child(1)'))).click()
+                        WebDriverWait(browser, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'ytd-menu-service-item-renderer.style-scope:nth-child(3) > tp-yt-paper-item:nth-child(1)'))).click()
                         time.sleep(1)                
                         # identify correct playlist
                         playlist_name_path = '//*[contains(text(), "'+ playlist_name +'")]'
