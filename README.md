@@ -108,22 +108,6 @@ Current features include:
    (if any), and add new videos from the Channel Subscriptions you specified.
    If you chose Firefox, this will all happen in the background. There will be messages
    printed in the program to tell you exactly what step the program is on.
-   
-# License
-
-Copyright (C) 2021 hbk Pancakes
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-See https://www.gnu.org/licenses/ or the license file for more details.
 
 # Contact Information
                 
