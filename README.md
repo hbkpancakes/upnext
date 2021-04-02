@@ -35,7 +35,7 @@ Current features include:
   do this. This step is required, and failure to do this will make the 
   script not work. This is due to YouTube limitations (and to avoid typing your
   username and password into programs you download off the internet).
-  This script will not ever see your username and password. 
+  This script will never see your username and password. 
         
 # Setup and Instructions
 
