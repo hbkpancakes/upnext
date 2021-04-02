@@ -24,11 +24,11 @@ from decimal import Decimal
 from functools import reduce
 import os
 import json
-# can likely remove this, just creates another dependency for python users. include in .exe release though
-from win10toast import ToastNotifier
+# removed to lessen dependencies for sript to work, feel free to enable, if you enable, uncomment out lines 31 and 367 
+# from win10toast import ToastNotifier
 
 # set notification variable
-toaster = ToastNotifier()
+# toaster = ToastNotifier()
 
 # create clear function to keep cmd clean while running program
 def clear(): 
@@ -362,9 +362,9 @@ while True:
         print('Complete!')
         time.sleep(3)
         browser.quit()
-        # windows 10 notification, can remove this for python distro, add back in/keep for .exe
+        # windows 10 notification, enable if you uncomment the win10toast import
         # also will want to add program icon to toast notification
-        toaster.show_toast("Playlist updated!", "Upnext has successfully added videos to your playlist")
+        # toaster.show_toast("Playlist updated!", "Upnext has successfully added videos to your playlist")
 
     #####################
     ### settings menu ###
