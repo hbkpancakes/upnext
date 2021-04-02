@@ -15,6 +15,9 @@ handling is not yet complete. You may run into errors
 that crash the script, or errors that look whacky. I'm expecting
 this, and working on handling all errors in an efficient way.
 
+**PLEASE MAKE SURE YOU READ ALL SETUP INSTRUCTIONS CAREFULLY, ESPECIALLY STEP 7. 
+THIS WILL ENSURE THE SCRIPT RUNS WITHOUT ERROR**
+
 Current features include:
 - Support for both Firefox and Chrome
 - Firefox runs "headless", meaning it will not open a window,
@@ -27,9 +30,6 @@ Current to do list:
 - MORE ERROR HANDLING
 - Create non-headless option for Firefox (or remove headless option completely, it may be unnecessary)
 - Additional features (ex. option for only removing videos from playlist - can be useful for playlist cleanup)
-
-**PLEASE MAKE SURE YOU READ ALL SETUP INSTRUCTIONS CAREFULLY, ESPECIALLY STEP 7. 
-THIS WILL ENSURE THE SCRIPT RUNS WITHOUT ERROR**
 
 # Requirements
 - Python 3.x 
