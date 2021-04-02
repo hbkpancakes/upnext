@@ -25,6 +25,7 @@ Current features include:
 Current to do list:
 - Add specific errors to try/except blocks where missing
 - MORE ERROR HANDLING
+- Create non-headless option for Firefox (or remove headless option completely, it may be unnecessary)
 - Additional features (ex. option for only removing videos from playlist - can be useful for playlist cleanup)
 
 # Requirements
