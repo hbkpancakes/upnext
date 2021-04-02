@@ -21,6 +21,11 @@ Current features include:
   but run the process in the background. Chrome will open a window
 - Ability to edit subscription choices, playlist link, 
   and default browser choices on the fly
+  
+Current to do list:
+- Add specific errors to try/except blocks where missing
+- MORE ERROR HANDLING
+- Additional features (ex. option for only removing videos from playlist - can be useful for playlist cleanup)
 
 # Requirements
 - Python 3.x 
