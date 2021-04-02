@@ -15,8 +15,6 @@ handling is not yet complete. You may run into errors
 that crash the script, or errors that look whacky. I'm expecting
 this, and working on handling all errors in an efficient way.
 
-Plans are to compile this into .exe so setup is far easier.
-
 Current features include:
 - Support for both Firefox and Chrome
 - Firefox runs "headless", meaning it will not open a window,
