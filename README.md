@@ -1,5 +1,5 @@
 # Upnext, a YouTube playlist builder by hbk Pancakes
-BETA v0.1
+BETA v0.5
 
 twitter@hbkpancakes | hbkpancakes@protonmail.com
 
