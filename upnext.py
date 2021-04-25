@@ -14,9 +14,6 @@ from selenium.common.exceptions import WebDriverException
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import ElementNotInteractableException
 import time
-import re
-from decimal import Decimal
-from functools import reduce
 import os
 import json
 # removed to lessen dependencies for script to work, feel free to enable, if you enable, uncomment out lines 23, 31 and 367 
