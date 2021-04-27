@@ -1,7 +1,7 @@
 # Upnext, a YouTube playlist builder by hbk Pancakes
 BETA v0.5
 
-twitter@hbkpancakes | hbkpancakes@protonmail.com
+https://twitter.com/hbkpancakes | hbkpancakes@protonmail.com
 
 
 Upnext is a YouTube playlist builder, which will remove old
