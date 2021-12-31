@@ -52,7 +52,10 @@ Current to do list:
 
    Whichever driver you download, place it in the corresponding browser folder that
    you created in the previous step
-- **Step 5:** Execute the script from the folder in which you saved it (ex: commands in cmd - 'cd path/to/script', then 'python upnext.py') 
+- **Step 5:** Execute the script from the folder in which you saved it, for example in cmd you can run it like this:
+   ```cd path/to/script```
+   then 
+   ```python upnext.py```
 - **Step 6:** Here you can either enter "1" and run it right
    away, or go through each option and set up each separately. If you
    use option "1", you will be walked through the setup. When you set up the browser settings, you will get asked to
@@ -61,9 +64,9 @@ Current to do list:
    location. Paste it, and then add the name of the .exe file at the end.
 
    For example if the pasted file path looks like this: 
-      c:\file\path\to\driver\
-   The result should look like this:
-      c:\file\path\to\driver\chromedriver.exe
+      ```c:\file\path\to\driver\```,
+   the result should look like this:
+      ```c:\file\path\to\driver\chromedriver.exe```
 
    **NOTE:** Please ensure you are using the correct driver for the browser you
    specify. If you choose Firefox, make sure the file you are using is titled
@@ -88,9 +91,9 @@ Current to do list:
    
    The general location of your created profiles are:
 
-   Firefox: C:\Users\user name\AppData\Roaming\Mozilla\Firefox\Profiles\somerandomstring.ProfileName
+   Firefox: ```C:\Users\user name\AppData\Roaming\Mozilla\Firefox\Profiles\somerandomstring.ProfileName```
    
-   Chrome: C:\Users\user name\AppData\Local\Google\Chrome\User Data\
+   Chrome: ```C:\Users\user name\AppData\Local\Google\Chrome\User Data\```
 
    Point the program to these locations and then your Browser Profile settings will be 
    saved.
