@@ -15,18 +15,17 @@ Current features include:
   and default browser choices within the script
   
 Current to do list:
-- Add specific errors to try/except blocks where missing
-- MORE ERROR HANDLING
+- Better/more error handling
 - Make setup more seemless - create folders if they don't exist instead of requiring user to create them
-- Additional features (ex. option for only removing videos from playlist - can be useful for playlist cleanup)
+- Additional features (ex. option for only removing videos from playlist, which can be useful for playlist cleanup)
 
 # Requirements
 - Windows 10 (not yet tested on Windows 11, but let me know if it works)
 - Python 3.x 
-- Selenium 3.x.x package installed (Selenium 4.x.x+ will work, however, depreciation warnings will be thrown)
+- Selenium 3.x package installed (Selenium 4.x will work, however, depreciation warnings will be thrown)
 - OPTIONAL: Win10toast - provides notification for Windows 10 users. Remember to uncomment lines that are commented out if you decide to use it (specific lines named in code)
 - Up to date Firefox or Chrome browser downloaded and installed
-  onto your computer.
+  on your computer.
 - A custom browser profile for your respective browser that 
   is logged into your YouTube account, and has those credentials 
   saved. Both Firefox and Chrome have guides on how to do this, and
@@ -53,10 +52,10 @@ Current to do list:
 
    Whichever driver you download, place it in the corresponding browser folder that
    you created in the previous step
-- **Step 5:** Execute the script. Here you can either enter "1" and run it right
+- **Step 5:** Execute the script from the folder in which you saved it (ex: commands in cmd - 'cd path/to/script', then 'python upnext.py') 
+- **Step 6:** Here you can either enter "1" and run it right
    away, or go through each option and set up each separately. If you
-   use option "1", you will be walked through the setup.
-- **Step 6:** When you set up the browser settings, you will get asked to
+   use option "1", you will be walked through the setup. When you set up the browser settings, you will get asked to
    specify your driver file. The easiest way to get the path for this
    is to navigate to the folder the driver file is in and copy the file path
    location. Paste it, and then add the name of the .exe file at the end.
